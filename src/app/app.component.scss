@@ -1,0 +1,43 @@
+
+ul{
+    li{
+        list-style: none;
+    }
+}
+
+#searchTerm {
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.totalItems {
+    margin-left: 10px;
+}
+
+.repo-container{
+    margin-bottom: 15px;
+    display: inline-flex;
+    .repo-img{
+        width: 110px;
+        height: 110px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    aside{
+        display: inline-block;
+        margin: 0 0 15px 15px;
+        h4{
+            margin-bottom: 5px;
+        }
+        label{
+            display: block;
+            font-weight:  bold;
+            span {
+                font-weight: normal;
+                margin-left: 5px;
+            }
+        }
+    }
+}
